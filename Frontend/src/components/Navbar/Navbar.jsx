@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { assets } from '../../assets/assets'
 import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
