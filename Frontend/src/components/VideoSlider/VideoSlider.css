@@ -1,0 +1,39 @@
+.video-slider {
+  width: 100%;
+  height: 700px; /* Fixed height for the entire slider container */
+  position: relative;
+  overflow: hidden;
+}
+
+.player-wrapper {
+  position: relative;
+  width: 100%;
+  height: 700px; /* Fixed height for the individual slide/video container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.16);
+}
+
+/* Description text without background/shadow */
+.description-no-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  z-index: 2;
+  text-align: center;
+  white-space: pre;
+  min-width: 250px;
+}
