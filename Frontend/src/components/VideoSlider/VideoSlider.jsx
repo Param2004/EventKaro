@@ -63,15 +63,13 @@ function VideoSlider() {
       }
     };
     if (videoElement) {
-      // The CRUCIAL CHANGE: force reload + play, always!
       videoElement.pause();
       videoElement.currentTime = 0;
-      // The reload() method ensures the browser resets the source
+      // Force reload and play, wrapped in timeout for React Slick compatibility in some browsers
       videoElement.load();
-      // Wait a tiny bit then play (ensures reload finished)
       setTimeout(() => {
-        videoElement.play();
-      }, 100);
+        videoElement.play().catch(() => {}); // Silent catch prevents errors in rare cases
+      }, 150);
 
       videoElement.removeEventListener('ended', handleEnded);
       videoElement.addEventListener('ended', handleEnded);
@@ -97,8 +95,12 @@ function VideoSlider() {
                 muted
                 width="100%"
                 height="700px"
-                style={{ objectFit: 'cover', opacity: 0.65 }}
+                style={{ objectFit: 'cover', opacity: 1 }}
               />
+              {/* Dark translucent overlay */}
+              {currentSlide === index && (
+                <div className="fade-dark"></div>
+              )}
               {currentSlide === index && (
                 <div className="description-no-bg">
                   <TypingDescription key={typingKey} text={video.description} trigger={typingKey} />
