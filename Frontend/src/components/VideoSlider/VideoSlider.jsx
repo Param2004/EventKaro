@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import Slider from 'react-slick';
+import { assets } from '../../assets/assets';
 
 // Your video data. Note the new URL path!
 const videoData = [
@@ -8,15 +9,15 @@ const videoData = [
 //     title: 'All services'
 //   },
   {
-    url: '/EventKaro_0.mp4',
+    url: assets.EventKaro_0,
     title: 'Decor'
   },
   {
-    url: '/EventKaro_1.mp4',
+    url: assets.EventKaro_1,
     title: 'Catering'
   },
   {
-    url: '/EventKaro_2.mp4',
+    url: assets.EventKaro_2,
     title: 'Decorating'
   }
 ];

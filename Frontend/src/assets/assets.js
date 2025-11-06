@@ -1,5 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
+import EventKaroIcon from './EventKaroIcon.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -60,6 +61,11 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
+import EventKaroIntro from './EventKaroIntro.mp4'
+import EventKaro_0 from './EventKaro_0.mp4'
+import EventKaro_1 from './EventKaro_1.mp4'
+import EventKaro_2 from './EventKaro_2.mp4'
+
 export const assets = {
     logo,
     basket_icon,
@@ -79,7 +85,12 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    EventKaroIcon,
+    EventKaroIntro,
+    EventKaro_0,
+    EventKaro_1,
+    EventKaro_2
 }
 
 export const menu_list = [
