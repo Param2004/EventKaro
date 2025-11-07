@@ -50,3 +50,38 @@
     min-width: 250px;
   }
   
+
+
+  .description-no-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    z-index: 2;
+    text-align: center;
+    min-width: 60px;
+    max-width: 90vw;
+    padding: 14px 4vw;
+    box-sizing: border-box;
+    white-space: nowrap;      /* Prevent wrapping on desktop */
+    overflow: hidden;         /* Prevent overflow of single line */
+    text-overflow: ellipsis;  /* Show ... if text too long for single line */
+  }
+  
+  @media (max-width: 600px) {
+    .description-no-bg {
+      font-size: 1rem;
+      min-width: 40px;
+      max-width: 95vw;
+      padding: 6px 2vw;
+      white-space: pre-line;   /* Allow wrapping on mobile only */
+      word-break: break-word;
+      overflow-wrap: break-word;
+      text-overflow: clip;    /* Show full wrapping text */
+    }
+  }
+  

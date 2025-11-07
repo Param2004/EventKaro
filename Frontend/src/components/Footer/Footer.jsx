@@ -6,7 +6,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt=""  className='logo-img'/>
+            <img src={assets.EventKaroIcon} alt=""  className='logo-img'/>
+            
             <p>Your go-to platform for ordering the tastiest snacks, delivered right to your doorstep. 
      We bring you a wide variety of snacks, made with love and the finest ingredients to satisfy your cravings, anytime, anywhere.</p>
         <div className="footer-social-icons">
@@ -21,7 +22,7 @@ const Footer = () => {
                 <li>About</li>
                 <li>Careers</li>
                 <li>Team</li>
-                <li>Snackster One</li>
+                <li>EventKaro </li>
                 <li>Privacy Policy</li>
             </ul>
         </div>

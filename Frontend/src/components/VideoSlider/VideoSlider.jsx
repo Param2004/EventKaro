@@ -18,6 +18,26 @@ const videoData = [
     url: assets.EventKaro_2,
     title: 'Decorating',
     description: 'Create unforgettable memories with creative decorations.'
+  },
+  {
+    url: assets.EventKaro_3,
+    title: 'Birthday',
+    description: 'Transform your event with elegant Birthday solutions.'
+  },
+  {
+    url: assets.EventKaro_4,
+    title: 'wedding Anniversary',
+    description: 'Savor the finest Anniversary from our expert chefs.'
+  },
+  {
+    url: assets.EventKaro_5,
+    title: 'Pre-Wedding Shoot',
+    description: 'Create unforgettable memories with Pre-Wedding Shoot.'
+  },
+  {
+    url: assets.EventKaro_6,
+    title: 'Baby Shower',
+    description: 'Create unforgettable memories with Baby Shower.'
   }
 ];
 
@@ -95,7 +115,7 @@ function VideoSlider() {
                 muted
                 width="100%"
                 height="700px"
-                style={{ objectFit: 'cover', opacity: 1 }}
+                style={{ objectFit: 'cover', opacity: 2 }}
               />
               {/* Dark translucent overlay */}
               {currentSlide === index && (

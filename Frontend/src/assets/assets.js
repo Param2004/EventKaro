@@ -65,6 +65,10 @@ import EventKaroIntro from './EventKaroIntro.mp4'
 import EventKaro_0 from './EventKaro_0.mp4'
 import EventKaro_1 from './EventKaro_1.mp4'
 import EventKaro_2 from './EventKaro_2.mp4'
+import EventKaro_3 from './EventKaro_3.mp4'
+import EventKaro_4 from './EventKaro_4.mp4'
+import EventKaro_5 from './EventKaro_5.mp4'
+import EventKaro_6 from './EventKaro_6.mp4'
 
 export const assets = {
     logo,
@@ -90,7 +94,11 @@ export const assets = {
     EventKaroIntro,
     EventKaro_0,
     EventKaro_1,
-    EventKaro_2
+    EventKaro_2,
+    EventKaro_3,
+    EventKaro_4,
+    EventKaro_5,
+    EventKaro_6
 }
 
 export const menu_list = [
