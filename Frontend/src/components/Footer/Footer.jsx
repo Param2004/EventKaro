@@ -6,8 +6,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.EventKaroIcon} alt=""  className='logo-img'/>
-            
+            <span className='logo-text'><img src={assets.EventKaroIcon} alt=""  className='logo-img'/>EventKaro</span>
             <p>Your go-to platform for ordering the tastiest snacks, delivered right to your doorstep. 
      We bring you a wide variety of snacks, made with love and the finest ingredients to satisfy your cravings, anytime, anywhere.</p>
         <div className="footer-social-icons">
