@@ -80,4 +80,3 @@ export const menu_list = [
 export const food_list = [
    
 ]
-git 
