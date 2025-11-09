@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <span className='logo-text'><img src={assets.EventKaroIcon} alt=""  className='logo-img'/>EventKaro</span>
-            <p>Your go-to platform for ordering the tastiest snacks, delivered right to your doorstep. 
-     We bring you a wide variety of snacks, made with love and the finest ingredients to satisfy your cravings, anytime, anywhere.</p>
+            <p>Making every event unforgettable with seamless planning and execution.
+From ideas to celebration — we bring it all together.</p>
         <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
             <img src={assets.twitter_icon} alt="" />
@@ -29,13 +29,13 @@ const Footer = () => {
                 <h2>CONTACT US</h2>
                 <ul>
                     <pre>+91  7320-0287-94</pre>
-                    <li>contact@snackster.in</li>
+                    <li>contact@EventKaro.in</li>
                 </ul>
         </div>
         
       </div>
       <hr />
-      <p className='footer-copyright'>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2023-2024 © Snackster Ltd. All rights reserved.</p>
+      <p className='footer-copyright'>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2023-2024 © EventKaro Ltd. All rights reserved.</p>
     </div>
   )
 }
