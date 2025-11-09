@@ -1,0 +1,53 @@
+.hiw-section {
+    padding: 48px 2vw 44px 2vw;
+    background: #f6fafd;
+    text-align: center;
+  }
+  .hiw-title {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    color: #184790;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  .hiw-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .hiw-step {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(30,70,110,0.15);
+    padding: 18px 30px;
+    display: flex; align-items: center; gap: 14px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #234780;
+    position: relative;
+    min-width: 146px;
+  }
+  .hiw-step-icon {
+    font-size: 1.7rem;
+    color: #2678e3;
+    margin-right: 8px;
+  }
+  .hiw-arrow {
+    color: #3886fa;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 12px;
+    user-select: none;
+  }
+  .hiw-step-label {
+    font-weight: 600;
+    color: #204172;
+  }
+  @media(max-width:800px){
+    .hiw-steps{ flex-direction:column; gap:8px;}
+    .hiw-step { min-width: 180px; width:100%; justify-content:center;}
+    .hiw-arrow { display: none;}
+  }
+  

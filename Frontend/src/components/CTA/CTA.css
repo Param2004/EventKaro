@@ -1,0 +1,48 @@
+.cta-section {
+    position: relative;
+    width: 100%;
+    min-height:220px;
+    background: url('../assets/cta-bg.jpg') center/cover no-repeat;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .cta-bg-overlay {
+    position: absolute; top:0; left:0; right:0; bottom:0;
+    background:rgba(31,48,71,0.56);
+    z-index:0;
+  }
+  .cta-content {
+    z-index:1;
+    color:#fff; text-align:center;
+  }
+  .cta-content h2 {
+    font-size:2.1rem;
+    font-weight:bold;
+    margin-bottom:16px;
+  }
+  .cta-content span {
+    font-size:1.16rem;
+    margin-bottom:18px;
+    display:block;
+  }
+  .cta-btn {
+    margin-top:12px;
+    padding:12px 36px;
+    border:none;
+    border-radius:24px;
+    background:linear-gradient(90deg,#3b6bff 55%, #1971ca 100%);
+    color:#fff;
+    font-size:1.11rem;
+    font-weight:700;
+    box-shadow:0 2px 20px rgba(30,60,180,0.17);
+    cursor:pointer;
+    transition: transform 0.21s;
+  }
+  .cta-btn:hover {
+    transform: scale(1.07);
+    background:linear-gradient(90deg, #1971ca 60%, #2a57e2 100%);
+  }
+  @media(max-width:800px){
+    .cta-content h2{ font-size:1.55rem;}
+    .cta-section{ min-height:140px;}
+  }
+  
