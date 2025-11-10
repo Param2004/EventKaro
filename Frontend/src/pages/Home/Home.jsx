@@ -9,7 +9,7 @@ import WhyChooseUs from '../../components/WhyChooseUs/WhyChooseUS'
 import Gallery from '../../components/Gallery/Gallery'
 import HowItWorks from '../../components/HowItWorks/HowItWorks'
 import Testimonials from '../../components/Testimonials/Testimonials'
-// import StatsCounter from '../../components/StatsCounter/StatsCounter'
+import StatsCount from '../../components/StatsCount/StatsCount'
 import CTA from '../../components/CTA/CTA'
 import FAQ from '../../components/FAQ/FAQ'
 
@@ -27,7 +27,7 @@ const Home = () => {
         <Gallery/>
         <HowItWorks/>
         <Testimonials/>
-        {/* <StatsCounter/> */}
+        <StatsCount/>
         <CTA/>
         <FAQ/>
         {/* <Header/> */}
