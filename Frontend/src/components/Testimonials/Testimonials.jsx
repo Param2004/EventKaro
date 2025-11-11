@@ -3,10 +3,9 @@ import { motion } from "framer-motion";
 import "./Testimonials.css";
 
 // Import images or use placeholders
-import user1 from "../../assets/user1.jpg";
-// "../assets/user1.jpg";
+import user1 from "../../assets/user1.jpeg";
 import user2 from "../../assets/user2.jpg";
-import user3 from "../../assets/user3.jpg";
+import user3 from "../../assets/user3.jpeg";
 
 const data = [
   {

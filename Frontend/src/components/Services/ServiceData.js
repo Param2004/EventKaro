@@ -6,7 +6,7 @@ import anniversaryImg from '../../assets/anniversary.png';
 import birthdayImg from '../../assets/birthday.png';
 import funeralImg from '../../assets/funeral.png';
 import babyShowerImg from '../../assets/babyshower.png';
-import corporateImg from '../../assets/corporate.jpg';
+import corporateImg from '../../assets/corporate.jpeg';
 
 // Add more as needed...
 

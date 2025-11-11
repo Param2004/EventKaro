@@ -20,7 +20,6 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
-import EventKaroIntro from './EventKaroIntro.mp4'
 import EventKaro_0 from './EventKaro_0.mp4'
 import EventKaro_1 from './EventKaro_1.mp4'
 import EventKaro_2 from './EventKaro_2.mp4'
@@ -36,7 +35,7 @@ import anniversaryImg from './anniversary.png';
 import birthdayImg from './birthday.png';
 import funeralImg from './funeral.png';
 import babyShowerImg from './babyshower.png';
-import corporateImg from './corporate.jpg';
+import corporateImg from './corporate.jpeg';
 
 export const assets = {
     basket_icon,
@@ -57,7 +56,6 @@ export const assets = {
     bag_icon,
     parcel_icon,
     EventKaroIcon,
-    EventKaroIntro,
     EventKaro_0,
     EventKaro_1,
     EventKaro_2,
